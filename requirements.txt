@@ -1,0 +1,7 @@
+python==3.7.4
+torch
+torchvision
+numpy==1.23.3
+keras
+tensorflow==2.10.0
+pillow==9.2.0

@@ -2,6 +2,10 @@
 
 See [E-SSL](https://github.com/rdangovs/essl/tree/main/imagenet/simclr) for all training scripts. The backbone model (resnet50) was pre-trained for 20 epochs with a lambda coefficient of 0.7 (weight of the rotation prediction loss). The backbone weights were then frozen, and the penultimate ffn was fine-tuned for another 80 epochs on the jigsaw puzzle dataset.
 
+## Credit
+
+If this work was interesting, please check out and/or cite [Equivariant Contrastive Learning](http://super-ms.mit.edu/essl.html) (Dangovski et al. 2022). Many thanks to the authors for open-sourcing their code and methods.
+
 ## Usage
 
 [![Python](https://img.shields.io/badge/python-3.7.4-blue?logo=python&logoColor=FED643)](https://www.python.org/downloads/release/python-374/)

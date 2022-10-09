@@ -28,4 +28,4 @@ python submission.py
 ### Jigsaw solving task (fine-tuning linear classifier)
 {"epoch": 19, "acc1": 65.85144927536231, "acc5": 95.51127214170693, "best_acc1": 65.85144927536231, "best_acc5": 95.51127214170693}
 
-Note that epochs were not recorded correctly for the jigsaw solving task, so '19' is not correct. 'acc@n' refers to accuracy on a validation set. 
+Note that epochs were not recorded correctly for the jigsaw solving task, so '19' is not correct. For the pre-training task, accuracy refers to single-fold rotation prediction; Jigsaw solver, classification on a held out test set.

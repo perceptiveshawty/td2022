@@ -1,5 +1,4 @@
-# td2022
-Submission to jigsaw puzzle solver challenge
+# Image Jigsaw Puzzle Solver - TAMU Datathon 2022
 
 ## Usage
 

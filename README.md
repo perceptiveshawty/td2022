@@ -1,6 +1,6 @@
 # Image Jigsaw Puzzle Solver - TAMU Datathon 2022
 
-See [E-SSL](https://github.com/rdangovs/essl/tree/main/imagenet/simclr) for all training scripts. The backbone model (resnet50) was pre-trained for 20 epochs with a lambda coefficient of 0.7 (weight of the rotation prediction loss). The backbone weights were then frozen, and the penultimate ffn (classifier) was fine-tuned for another 80 epochs on the jigsaw puzzle dataset.
+See [E-SSL](https://github.com/rdangovs/essl/tree/main/imagenet/simclr) for all training scripts. The backbone model (resnet50) was pre-trained for 20 epochs with a lambda coefficient of 0.7 (weight of the rotation prediction loss). The backbone weights were then frozen, and the penultimate ffn was fine-tuned for another 80 epochs on the jigsaw puzzle dataset.
 
 ## Usage
 
